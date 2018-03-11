@@ -1,0 +1,134 @@
+*{
+  list-style-type: none;
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+.slider{
+  width:100% ;
+  height: 500px;
+  position: absolute;
+  left:0%;
+  top: 0%;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+}
+.ul_img{
+  width: 6000px;
+  padding: 0px;
+  margin: 0px;
+  transition: all 2s;
+}
+.li_img{
+  float: left;
+  width: 1365px;
+  height: 500px;
+}
+.buttom{
+  z-index: 999;
+  height: 30px;;
+  width: 76px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -38px;
+  margin-top: 200px;
+}
+
+.buttom_btn{
+  width: 10px;
+  height: 10px;
+  float: left;
+  border: 1px solid white;
+  border-radius:50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/*.buttom_btn:hover{
+  background-color: white;
+}*/
+.slider_nav{
+  z-index: 999;
+  width: 1365px;
+  height: 50px;
+  /*background-color: blue;*/
+  position: absolute;
+  top: 10%;
+  left: 0%;
+
+}
+.slider_nav li{
+  float: left;
+}
+.slider_nav li a{
+  display: block;
+  /*background-color: red;*/
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 165px;
+  color: white;
+  border: 1px solid transparent;
+}
+.slider_nav li a:hover{
+  border-color: yellow !important
+}
+.vr_famliy{
+  text-transform:uppercase;
+  z-index: 999;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  color: white;
+  margin-top: 100px;
+}
+.slider_under{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background:#EFF1F0;
+  height:300px;
+  width: 30%;
+  margin-top: 500px;
+  border: 2px solid red;
+}
+.li_top{
+  width: 70px;
+  height: 70px;
+  border: 1px solid #8BABD1;
+  border-radius: 70px;
+
+}
+/*.ul_circle{
+  width: 700px;
+  margin-left: 245px;
+}
+.li_circle{
+  float: left;
+  padding-left: 140px;
+}
+.li_circle a{
+  display: block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #8BABD1;
+  border-radius: 70px;
+
+}
+.ul_aside{
+  width: 700px;
+  margin-left: 245px;
+}
+.li_aside{
+  float: left;
+  padding-left: 126px;
+}
+.li_aside a{
+  display: block;
+  width: 90px;
+  height: 40px;
+  border: 1px solid #8BABD1;
+  /*border-radius: 70px;*/
+}
