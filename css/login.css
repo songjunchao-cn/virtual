@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+html,body{
+	font-size: 14px;
+	background:url("../img/bg1.jpg") no-repeat;
+	background-size: cover;
+}
+h1{
+  margin-top: 50px;
+	text-align: center;
+}
+main{
+	width: 350px;
+	height: 200px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+  border-radius: 5px;
+	background:url("../img/login_bg.jpg") no-repeat;
+	background-size: cover;
+}
+main  h3{
+	text-align: center;
+	padding: 10px 0;
+	line-height: 30px;
+	font-size: 20px;
+
+}
+main .inputEle{
+	box-sizing: border-box;
+	padding: 10px 30px;
+}
+main .inputEle  input{
+	background: transparent;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	border: none;
+	display: inline-block;
+	width: 90%;
+	margin: 0 12px;
+	outline: none;
+	border-bottom: 1px solid blue;
+}
+main .inputEle  button{
+	  width: 100%;
+	  background:#0099F7;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+		font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+
+}
+main .inputEle  button:hover{
+	background: linear-gradient(to right, #F11712, #0099F7);
+}

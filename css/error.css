@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+html,body{
+	font-size: 14px;
+	background:rgba(0,0,0,0.8);
+}
+main{
+	width: 350px;
+	height: 200px;
+	background: #fff;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+
+}
+main div{
+	text-align: center;
+}
+main h3{
+	text-align: center;
+	padding: 30px 0;
+	line-height: 20px;
+	font-size: 20px;
+
+}
+main div span{
+	font-size:20px;
+	color: red;
+}
